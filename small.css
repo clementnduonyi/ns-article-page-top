@@ -96,6 +96,7 @@ header nav{
   box-shadow: 0 0 5px #4d4d4d;
   height: 3rem;
   padding-top: 5px;
+ 
 }
 nav ul{
     display: flex; 
@@ -107,6 +108,7 @@ nav li a{
     font-weight: 700;
     text-decoration: none;
     font-size: 1rem;
+    padding-bottom: 8px;
     
     
    
