@@ -86,7 +86,17 @@ body {
 
 /*--------------------------Nav-------------------------------------*/
 
-
+header nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  background-color: #fff;
+  box-shadow: 0 0 5px #4d4d4d;
+  height: 3rem;
+  padding-top: 5px;
+}
 nav ul{
     display: flex; 
     padding: 0;
@@ -117,12 +127,10 @@ nav li.active a{
     color: #00b3e5;
 }
 
-nav .nav-cta{
-    display: flex;
-    justify-content: flex-end;
-    padding: 0;
-    margin: 0;
-    line-height: 0;
+nav li.nav-cta {
+    margin-left: 2rem;
+    font-size: .8rem;
+
 }
 
 nav .nav-cta li a:hover{
@@ -323,12 +331,14 @@ aside p span{
     font-weight: 700;
 }
 /* ----------------------------More-----------------*/
-
-.more-section h3{
+ .more-section {
+     display: flex;
+     line-height: 1;
+ }
+/*.more-section h3{
      margin: 1rem 4rem ;
-}
+}*/
 .more-section .col-3{
-    width: 25%;
     line-height: 1;
 }
 
@@ -342,11 +352,10 @@ aside p span{
 
 .more-section img{
     width: 100%;
+    height: auto;
 }
 
-.more-section{
-    margin: 0;
-}
+
 /*-------------------------------footer-----------------------------*/
 footer{
     background-color: #fbf5f5;
